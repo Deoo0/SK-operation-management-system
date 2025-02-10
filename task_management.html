@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POMS - Task Management</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-panel">
+            <h2>Navigation</h2>
+            <ul>
+                <li><img src="css/SK.png" alt="SK Logo" height="100" width="100"></li>
+                <li><hr class="rounded"></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="budgeting.html">Budget Management</a></li>
+                <li><a href="task_management.html">Task/Project Management</a></li>
+                <li><a href="document_storage.html">Document Storage</a></li>
+                <li><a href="project_overview.html">Project Overview</a></li>
+                <li><a href="team_collaboration.html">Team Collaboration</a></li>
+            </ul>
+        </div>
+        <h1>Task Management</h1>
+    </header>
+    
+    <main style="display: flex;">
+        <div class="content">
+    <main>
+        <section id="task-management" style="padding: 20px;">
+            <button id="create-task-manage" class="btn">Create Task/Project</button>
+            <input type="text" id="task-name" placeholder="Task Name" />
+            <input type="text" id="task-description" placeholder="Task Description" />
+            <select id="task-priority">
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+            </select>
+            <input type="date" id="task-due-date" />
+            <button id="filter-tasks" class="btn">Filter Tasks</button>
+            <button id="sort-tasks" class="btn">Sort Tasks</button>
+            <button id="mark-completed" class="btn">Mark as Completed</button>
+            <div id="task-list-manage" class="card" style="padding: 20px;"></div>
+            <button id="change-status" class="btn">Change Task Status</button>
+            <button id="create-task-manage" class="btn">Create Task/Project</button>
+
+            <div id="task-list-manage" class="card" style="padding: 20px;"></div>
+            <button id="change-status" class="btn">Change Task Status</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Project Operations Management System by ByteForge Devs</p>
+    </footer>
+    <script src="js/task_management.js"></script>
+</body>
+</html>

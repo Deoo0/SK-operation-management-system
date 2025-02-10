@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POMS - Project Overview</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <div class="nav-panel">
+            <h2>Navigation</h2>
+            <ul>
+                <li><img src="css/SK.png" alt="SK Logo" height="100" width="100"></li>
+                <li><hr class="rounded"></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="budgeting.html">Budget Management</a></li>
+                <li><a href="task_management.html">Task/Project Management</a></li>
+                <li><a href="document_storage.html">Document Storage</a></li>
+                <li><a href="project_overview.html">Project Overview</a></li>
+                <li><a href="team_collaboration.html">Team Collaboration</a></li>
+            </ul>
+        </div>
+        <h1>Project Overview & Statistics</h1>
+    </header>
+    
+    <main style="display: flex;">
+        <div class="content">
+            <section id="project-overview" style="padding: 20px;">
+                <div class="card">
+                <canvas id="projectOverviewChart"></canvas>
+            </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Project Operations Management System by ByteForge Devs</p>
+    </footer>
+    <script src="js/project_overview.js"></script>
+</body>
+</html>
