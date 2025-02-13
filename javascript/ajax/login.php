@@ -18,7 +18,7 @@
             <form>
                 <input type="text" placeholder="username">
                 <input type="password" placeholder="password">
-                <button type="submit">LOGIN <i class="fas fa-arrow-right"></i></button>
+                <input type="submit">LOGIN <i class="fas fa-arrow-right"></i></input>
                 <a href="#">forgot password?</a>
             </form>
         </div>
