@@ -37,7 +37,9 @@ body {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 16px;
+    font-family: 'Dancing Script', cursive;
 }
+
 
 #left img {
     width: 256px;
