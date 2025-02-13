@@ -22,7 +22,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(GB.jpeg);
+    background-image: url(./asset/Gradient_Background.jpeg);
     background-size: cover;
 }
 .left-panel p {
@@ -40,6 +40,8 @@ body {
     padding: 32px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .right-panel h1 {
     font-size: 1.5rem;

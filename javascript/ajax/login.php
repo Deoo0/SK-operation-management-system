@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Operations Management System</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
-    <link href="./design/css/loginstyle.css" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet"/>
+    <link href="../design/css/loginstyle.css" rel="stylesheet"/>
 </head>
 <body>
     <div class="container">
         <div class="left-panel">
             <p>“Ang kabataan ang pag-asa ng Bayan”</p>
-            <img alt="sk logo" src="/design/css/asset/SK-removebg-preview.png"/>
+            <img alt="sk logo" src="../design/css/asset/SK-removebg-preview.png"/>
         </div>
         <div class="right-panel">
             <h1>Project Operations Management System</h1>
