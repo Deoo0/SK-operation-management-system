@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <link rel="stylesheet" href="../Design/css/loginstyle.css">
+    <link rel="stylesheet" href="loginstyle.css">
 </head>
 <body>
     <div id="container">
         <div id="left">
             <p>“Ang kabataan ang pag-asa ng Bayan”</p>
-            <img src="../Assets/logo-sk-removebg-preview.png" alt="SK Logo">
+            <img src="SK-removebg-preview.png" alt="SK Logo">
         </div>
         <div id="right">
             <h1>Project Operations Management System</h1>
