@@ -29,21 +29,20 @@ body {
 }
 
 #left {
-    background-image: url(../asset/Gradient_Background.jpeg);
+    background-image: url(Gradient_Background.jpeg);
     background-size: cover;
 }
 
-#left p {
-    font-size: 18px;
+#cursive-text {
+    font-size: 20px;
     font-weight: 600;
     margin-bottom: 16px;
     font-family: 'Dancing Script', cursive;
 }
 
-
-#left img {
-    width: 256px;
-    height: 256px;
+.logo {
+    max-width: 100%;
+    height: auto;
 }
 
 #right {
@@ -71,18 +70,26 @@ body {
 }
 
 #right input {
-    padding: 8px;
-    border: 1px solid #ccc;
+    padding: 12px;
+    border: 1px solid #e2e8f0;
     border-radius: 4px;
     margin-bottom: 16px;
     width: 80%;
     max-width: 300px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
 }
 
-#right button {
+#right input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.1);
+}
+
+.submit-btn {
     background-color: #fbbf24;
     color: white;
-    padding: 12px;
+    padding: 12px 24px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -91,24 +98,29 @@ body {
     justify-content: center;
     width: 80%;
     max-width: 300px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
 }
 
-#right button:hover {
-    background-color: #f59e0b;
+.submit-btn:hover {
+    background-color: #2563eb;
 }
 
 #right button i {
     margin-left: 8px;
 }
 
-#right a {
-    color: #3b82f6;
+.forgot-password {
+    color: #64748b;
     text-align: right;
     margin-top: 16px;
     text-decoration: none;
+    font-size: 0.9em;
+    transition: color 0.3s ease;
 }
 
-#right a:hover {
+.forgot-password:hover {
+    color: #3b82f6;
     text-decoration: underline;
 }
 
