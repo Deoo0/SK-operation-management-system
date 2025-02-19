@@ -1,3 +1,16 @@
+<?php
+session_start();
+error_reporting(1);
+
+// Redirect to login if the user is not logged in
+if (!isset($_SESSION['user_id']) && $_REQUEST['nav'] !== 'login') {
+    header("Location: ./javascript/ajax/login.php");
+    exit();
+}
+
+include('nav.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,9 +22,6 @@
 </head>
 <body>
     <?php
-    error_reporting(1);
-    session_start();
-    include('nav.php');
     nav();
 
     switch($_REQUEST['nav']){
@@ -39,10 +49,12 @@
         case 'logout':
             include('logout.php');
             break;
-
+        case 'login':
+            include('./javascript/ajax/login.php');
+            break;
         default:
-        include('home.php');
-        break;
+            include('home.php');
+            break;
     }
     
     ?>
