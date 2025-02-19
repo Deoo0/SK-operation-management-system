@@ -8,6 +8,7 @@
     <script type="text/javascript" src="../main.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
 </head>
+
 <body>
     <div id="container">
         <div id="left">
@@ -21,6 +22,7 @@
             </div>
         </div>
 
+        <!-- Login Modal -->
         <div id="loginModal" class="modal">
             <div class="modal-content">
                 <span class="close" onclick="closeLoginModal()">&times;</span>
