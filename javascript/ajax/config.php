@@ -14,10 +14,12 @@
         if($row > 0){
             $data = mysqli_fetch_assoc($chk);
             $pw2 = $data['password'];
+            $id = $data['id'];
 
             if($pw == $pw2){
                 session_start();
-                echo '1';
+                $_SESSION['user_id'] = $id;
+                echo $id;
             }
             else{
                 echo " NO MATCH";

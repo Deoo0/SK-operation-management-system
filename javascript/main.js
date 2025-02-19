@@ -21,8 +21,8 @@ function loginBtn(){
             .then((response) => response.text())
             .then((data)=>{
                 if(data == "1"){
-                    alert("User Found");
-                    window.location.href = "../../index.php";
+                    alert("Welcome User");
+                    window.location.href = "../../?";
                 }else{
                     alert(data);
                 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <link rel="stylesheet" href="loginstyle.css">
+    <link rel="stylesheet" href="../../design/css/loginstyle.css">
     <script type="text/javascript" src="../main.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
 </head>
@@ -12,7 +12,7 @@
     <div id="container">
         <div id="left">
             <p id="cursive-text">“Ang kabataan ang pag-asa ng Bayan”</p>
-            <img src="SK-removebg-preview.png" alt="SK Logo" class="logo">
+            <img src="../../asset/SK-removebg-preview.png" alt="SK Logo" class="logo">
         </div>
         <div id="right">
             <h1>Project Operations Management System</h1>
