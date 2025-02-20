@@ -10,6 +10,9 @@ function loginBtn(){
 
     if(username.value == ""){
         alert("Empty USN FIELD");
+<<<<<<< HEAD
+        return false;
+=======
     } else{
         if (password.value == ""){
             alert("Emplty Pass Field");
@@ -28,6 +31,33 @@ function loginBtn(){
                 }
             })
         }
+>>>>>>> c6f55af09b04c8a17b9caf5628ac9efc47c1d065
     }
+    
+    if (password.value == ""){
+        alert("Empty Pass Field");
+        return false;
+    }
+
+    fetch("./config.php",{
+        method: "POST",
+        body: formdata,
+    })
+    .then((response) => response.text())
+    .then((data)=>{
+        if(data == "1"){
+            alert("User Found");
+            window.location.href = "../../index.php";
+        }else{
+            alert(data);
+        }
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+        alert("An error occurred during login");
+    });
+    
     return false;
 }
+
+// Modal functions (moved to login.php)
