@@ -43,8 +43,8 @@ include('nav.php');
         case 'tasks':
             include('task.php');
             break;
-        case 'users':
-            include('users.php');
+        case 'accounts':
+            include('accounts.php');
             break;
         case 'logout':
             include('logout.php');
