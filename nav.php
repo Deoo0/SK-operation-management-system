@@ -19,7 +19,7 @@
                     echo '<li><a href="?nav=statistics">STATISTICS</a></li>';
                     echo '<li><a href="?nav=tasks">TO-DO</a></li>';
                     if ($usertype_id == 1 || $usertype_id == 0) {
-                        echo '<li><a href="?nav=user">USERS</a></li>';
+                        echo '<li><a href="?nav=accounts">ACCOUNTS</a></li>';
                     }
                     echo ' <li><a id="logout" href="?nav=logout">LOGOUT</a></li>';
                 } else {
