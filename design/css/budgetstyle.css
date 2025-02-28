@@ -1,0 +1,55 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+    
+.div1 {
+    grid-column: span 6 / span 6;
+}
+
+.div2 {
+    grid-row: span 4 / span 4;
+    grid-row-start: 2;
+}
+
+.div3 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-row-start: 2;
+}
+
+.div4 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+
+.div5 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+
+.div6 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+    grid-row-start: 4;
+}
+
+.div3, .div4, .div5, .div6 {
+    background: rgba(255, 255, 255, 0.8); /* White background with transparency */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    padding: 20px; /* Padding inside the cards */
+    backdrop-filter: blur(10px); /* Blur effect for glass-like appearance */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.div3:hover, .div4:hover, .div5:hover, .div6:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
