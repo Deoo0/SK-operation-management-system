@@ -14,6 +14,7 @@ include('javascript/ajax/config.php');
 <body>
     <nav class="nav-floating">
         <ul>
+            <li><a href="budget.php">Budget Management</a></li>
             <li><a href="?nav=home">Home</a></li>
             <li><a href="?nav=tasks">Tasks</a></li>
             <li><a href="?nav=documents">Documents</a></li>
